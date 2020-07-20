@@ -1,2 +1,2 @@
 # Python_Program
-In this repo it contain all my Basic and Advanced Python Program 
+I have make this repo which contain all my basic and Advanced Python program 
