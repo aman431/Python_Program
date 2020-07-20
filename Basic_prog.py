@@ -23,7 +23,7 @@ for i in str1:
         Obj[i] += 1
     else:
         Obj[i] = 1
-print(Obj)
+#print(Obj)
 
 #Sum of digit 
 def sum_of_num(n):
@@ -53,7 +53,28 @@ class factor:
             fact = fact*i
             print(fact)
 
-n = int(input("Enter the number"))
-f1 = factor()
-f1.accept(n)
-f1.display()
+#n = int(input("Enter the number"))
+#f1 = factor()
+#f1.accept(n)
+#f1.display()
+
+
+
+#Files
+#in file check how many time number occur
+def files():
+    f = open('virat.txt','r')
+    data={}
+    cnt=0
+    for line in f.readline():
+        if line == 'o':
+            if line in data:
+                data[line]+=1
+            else:
+                data[line]=1
+    return data
+
+print(files())
+
+
+
