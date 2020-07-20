@@ -23,7 +23,24 @@ def sum_of_num(n):
         n=n/10
     return int(sum)
 
-n=int(input("Enter the number"))
-print(sum_of_num(n))
+#n=int(input("Enter the number"))
+#print(sum_of_num(n))
 
-    
+#class program to calculate a factor
+class factor:
+   #def __init__(self,number):
+        #self.number = number
+
+    def accept(self,number):
+        self.number = number
+
+    def display(self):
+        fact = 1 
+        for i in range(1,n):
+            fact = fact*i
+            print(fact)
+
+n = int(input("Enter the number"))
+f1 = factor()
+f1.accept(n)
+f1.display()
