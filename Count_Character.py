@@ -1,12 +1,14 @@
-str1 = 'Hello World'
-#str2 = 'Aman Rathore'
+def count_str():
+    str1 = 'Hello World'
+    l1 = [12,2,3,4,5,6,6,7,7,7]
+    ans = str1.count('o')
+    ans1 = l1.count(7);
+    return "String ",ans," Integer ",ans1
 
+print(count_str())
 
-#count a letter in string 
-print(str1.count('o'));
-
-
-#count a letter a number
-l = [1,2,3,4,5,6,7,7,7,7];
-print(l.count(7));
-
+#counting each word
+str1="Hello World"
+for i in str1:
+    a1 = str1.count(i)
+    #print(a1)
