@@ -24,7 +24,7 @@ c.display()
 '''
 
 #Store the String in array which is in the position of even Number
-class Count_String:
+class Check_str:
     def accept(self):
         self.str1 = input("Enter the String")
 
@@ -39,8 +39,34 @@ class Count_String:
         print(self.str1)
         print(self.str2)
 
-
+'''
 c = Count_String()
 c.accept()
 c.check()
 c.display()
+'''
+class check_file:
+
+    def accept(self):
+        self.f  = open("virat.txt")
+
+    def check(self):
+        self.l1 = {}
+        #l1=[]
+        cnt=0
+        for line in self.f.readline():
+            cnt=cnt+1
+            if(cnt%2==0):
+                #l1.append(line)
+                self.l1[line]=cnt
+
+    def display(self):
+        print(self.l1)
+
+
+c = check_file()
+c.accept()
+c.check()
+c.display()
+
+
