@@ -11,4 +11,4 @@
 5) Count a Character by using File
 
 ## Motive
-I this i want to be an explore each side of Python 
+In this i want to be an explore each side of Python 
