@@ -45,6 +45,8 @@ c.accept()
 c.check()
 c.display()
 '''
+
+#Store a character which is on the even place
 class check_file:
 
     def accept(self):
@@ -63,10 +65,19 @@ class check_file:
     def display(self):
         print(self.l1)
 
-
+'''
 c = check_file()
 c.accept()
 c.check()
 c.display()
+'''
+
+#replace a character with symbol
+str1 = input("Enter the String")
+char1 = str1[0]
+for i in range(0,len(str1)):
+    s2=str1[0:].replace(char1,'$')
+print(s2)
+
 
 
