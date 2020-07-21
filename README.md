@@ -18,4 +18,4 @@
 5) Reverse a string not the character of that string.
 
 ## Motive
-In this i want to be an explore each side of Python 
+Motive is that i want to be an explore each side of Python 
