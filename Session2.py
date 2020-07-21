@@ -73,11 +73,25 @@ c.display()
 '''
 
 #replace a character with symbol
-str1 = input("Enter the String")
-char1 = str1[0]
-for i in range(0,len(str1)):
-    s2=str1[0:].replace(char1,'$')
-print(s2)
+def replace():
+    str1 = input("Enter the String")
+    char1 = str1[0]
+    for i in range(0,len(str1)):
+         s2=str1[0:].replace(char1,'$')
+        #print(s2)
 
+#replace()
+
+#reverse a string 
+def reverse():
+    str1 = input("Enter the String")
+    split = str1.split(' ')
+    print('Original String',str1)
+    #l1 = str1[::-1] this expression also reverse a string ot character
+    l1 = split[::-1] #this reverse a string but not character of string 
+    l2 = ' '.join(l1)
+    print('Reversed String',l2)
+
+reverse()
 
 
