@@ -4,11 +4,11 @@
 ## Session
 
 - #### Session1<br/>
-1) Count a Number by using Count
-2) Count a Character
-3) Count a Character stroe in empty Directory by using a for loop
-4) Calculate a Fact by using Classes and Object
-5) Count a Character by using File
+1) Count a Number by using Count keyword
+2) Count a Character by using for loop
+3) Count a Character stroe in empty Dictionary by using a for loop
+4) Calculate a Factorial by using Classes and Object
+5) Count a Character of file.
 
 - #### Session2<br/>
 1) check even and odd and store into list 
