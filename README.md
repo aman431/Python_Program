@@ -1,5 +1,5 @@
 # Python_Program
-- Here we have total 5 Session. Each Session contain 5 random program of Python.
+- Here we have different Session. Each Session contain a random program of Python.
 
 ## Session
 
